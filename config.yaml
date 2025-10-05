@@ -1,0 +1,39 @@
+bot_token: "8435220355:AAFK7piQ5aj_86iHqzxj42Z4VKVjm6mLj1I"
+
+# Default source channel (where you will post)
+source_channels:
+  - -1002856470667  # DeshiviralHubLink(Bot)
+
+# Routes: default 'all' forwards to these channels
+routes:
+  all:
+    - -1003172610238  # DeshiviralHub_All
+    - -1003116951675  # DeshiviralHub (Latest)
+  backup_all:
+    - -1003172610238
+    - -1003116951675
+  deshi: []
+  indian: []
+  japan: []
+
+# Keywords left empty for now; you can add later under 'keywords' section.
+keywords:
+  # deshi:
+  #   - "বাংলা"
+  # indian:
+  #   - "india"
+  # japan:
+  #   - "japan"
+
+hashtags: {}
+
+default_routes:
+  - "all"
+
+moderation_mode: false
+moderator_chat: "@your_moderator_channel"
+
+# advanced options
+retry_attempts: 3
+retry_backoff_seconds: 2
+config_reload_seconds: 30
