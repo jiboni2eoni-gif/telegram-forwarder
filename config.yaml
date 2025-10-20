@@ -9,9 +9,11 @@ routes:
   all:
     - -1003172610238  # DeshiviralHub_All
     - -1003116951675  # DeshiviralHub (Latest)
+    - -1003029985742  # DeshiViralHub (Backup)
   backup_all:
     - -1003172610238
     - -1003116951675
+    - -1003029985742  # DeshiViralHub (Backup)
   deshi: []
   indian: []
   japan: []
